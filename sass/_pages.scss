@@ -1,0 +1,24 @@
+section {
+    $colorSection: red;
+    background-color: $colorSection;
+    h2 {
+        color: $headings;
+        font-size: 24px;
+        border-color: $colorSection;
+    }
+    div {
+        width: 500px;
+        h3 {
+            color: $headings;
+        }
+        p {
+            color: $colorBase;
+            font: {
+                family: sans-serif;
+                weight: 700;
+                style: normal;
+                size: 16px;
+            }
+        }
+    }
+}

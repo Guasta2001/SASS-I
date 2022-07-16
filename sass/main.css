@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #ff6347;
+}
+
+.header .header__logo {
+  width: 100px;
+}
+
+.header .header__logo h1 {
+  color: #a1073b;
+  font: normal 48px/1.5 "Oswald", sans-serif;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__menu ul {
+  display: inline-block;
+}
+
+.header__menu ul li {
+  background-color: #ff6347;
+}
+
+.header__menu ul li a {
+  color: blue;
+}
+
+.header__menu ul li a:hover {
+  color: red;
+}
+
+.header__menu ul li a:visited {
+  color: green;
+}
+
+.header__search {
+  width: 200px;
+}
+
+section {
+  background-color: red;
+}
+
+section h2 {
+  color: #a1073b;
+  font-size: 24px;
+  border-color: red;
+}
+
+section div {
+  width: 500px;
+}
+
+section div h3 {
+  color: #a1073b;
+}
+
+section div p {
+  color: #333;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .section {
+    background: #333;
+  }
+}
+/*# sourceMappingURL=main.css.map */
